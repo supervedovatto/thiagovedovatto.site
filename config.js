@@ -43,7 +43,7 @@ module.exports = {
       url: 'https://stackoverflow.com/users/11401113/thiago-vedovatto',
     },
   ],
-  email: 'thiagovedovatto@gmail.com',
-  phone: '(62)99952-9997',
+  email: 'thiago.vedovatto@ifg.edu.br',
+  phone: '+55 (62) 99952-9997',
   address: 'Goiânia/GO',
 };

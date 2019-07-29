@@ -28,7 +28,7 @@ const IndexPage = () => (
           </div>
           <p className="lead mb-0">
             Professor no Instituto Federal de Educação, Ciência e Tecnologia de Goiás (campus Goiânia) desde Agosto de 2013.
-            Com passagens e projetos desesenvolvidos pela UFG, UFSCar, UnB, UFPE, USP e UFCE.
+            Com passagens e projetos desenvolvidos pela UFG, UFSCar, UnB, UFPE, USP e UFCE.
           </p>
           <p className="lead mb-5">
             Se precisar de ajuda em suas análises estatísticas, pode contar comigo, ficarei feliz em ajudar.

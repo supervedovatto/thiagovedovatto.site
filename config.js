@@ -1,39 +1,49 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Resume', // <title>
+  siteTitle: 'Thiago VedoVatto', // <title>
   manifestName: 'Resume',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#34a853',
+  manifestThemeColor: '#34a853',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-resume/`, // This path is subpath of your hosting https://domain/portfolio
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  // pathPrefix: `/gatsby-starter-resume/`, // This path is subpath of your hosting https://domain/portfolio
+  firstName: 'Thiago',
+  lastName: 'VedoVatto',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/supervedovatto',
     },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
+      url: 'https://br.linkedin.com/in/supervedovatto',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/supervedovatto',
     },
     {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-pinterest',
+      name: 'Pinterest',
+      url: 'https://www.pinterest.com/supervedovatto/',
+    },
+    {
+      icon: 'fa-keybase',
+      name: 'Keybase',
+      url: 'https://keybase.io/supervedovatto',
+    },
+    {
+      icon: 'fa-stack-overflow',
+      name: 'Stackoverflow',
+      url: 'https://stackoverflow.com/users/11401113/thiago-vedovatto',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'thiagovedovatto@gmail.com',
+  phone: '(62)99952-9997',
+  address: 'Goiânia/GO',
 };

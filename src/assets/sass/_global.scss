@@ -78,3 +78,26 @@ p.lead {
     }
   }
 }
+
+.skills-icons {
+  font-size: 1rem;
+  .list-inline-item i {
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.skill-ul {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fa-star-full {
+  margin-right: 3rem;
+  content: "\f005"; }

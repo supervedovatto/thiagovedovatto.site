@@ -1,21 +1,21 @@
 {
-  "name": "gatsby-starter-resume",
+  "name": "thiagovedovatto-resume",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Resume by startbootstrap",
+  "description": "Currículo pessoal do professor Thiago VedoVatto",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-resume.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Thiago VedoVatto",
+    "email": "thiagovedovatto@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.4.3",
     "gatsby-plugin-manifest": "^2.1.1",
-    "gatsby-plugin-offline": "^2.1.0",
+    "gatsby-plugin-offline": "^2.2.4",
     "gatsby-plugin-react-helmet": "^3.0.12",
-    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sass": "^2.1.3",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -39,13 +39,13 @@
     "rimraf": "^2.6.3"
   },
   "keywords": [
-    "gatsby",
-    "gatsby-starter",
+    "thiagovedovatto",
+    "supervedovatto",
     "gatsby-starter-resume"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-resume/issues"
+    "url": "https://thiagovedovatto.surge.sh/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-resume#readme"
+  "homepage": "https://thiagovedovatto.surge.sh"
 }

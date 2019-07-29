@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -19,14 +20,18 @@ const IndexPage = () => (
             <span className="text-primary">{config.lastName}</span>
           </h1>
           <div className="subheading mb-5">
-            {config.address} · {config.phone} ·
+            {config.address}
+            · <i className="fab fa-whatsapp"></i> 
+            {config.phone}
+            ·         
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
+          <p className="lead mb-0">
+            Professor no Instituto Federal de Educação, Ciência e Tecnologia de Goiás (campus Goiânia) desde Agosto de 2013.
+            Com passagens e projetos desesenvolvidos pela UFG, UFSCar, UnB, UFPE, USP e UFCE.
+          </p>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+            Se precisar de ajuda em suas análises estatísticas, pode contar comigo, ficarei feliz em ajudar.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -48,76 +53,121 @@ const IndexPage = () => (
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5">Experiência</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Professor Efetivo</h3>
+              <div className="subheading mb-3">Instituto Federal de Educação, Ciência e Teconoligia de Goiás</div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+                Ministrei as seguintes disciplinas para os cursos Técnicos, Licenciaturas e Bacharelados:
               </p>
+              <ul className="fa-ul mb-0">
+                <li>
+                  <i className="fa-li fa fa-book-open"></i>
+                  DPAA-2.096.1 - Matemática III
+                </li>
+                <li>
+                  <i className="fa-li fa fa-book-open"></i>
+                  DPAA-2.082 - Estudos de Funções
+                </li>
+                <li>
+                  <i className="fa-li fa fa-book-open"></i>
+                  DPAA-4.314 - Matemática Discreta
+                </li>
+                <li>
+                  <i className="fa-li fa fa-book-open"></i>
+                  DPAA-2.087 - Geometria Analítica e Cálculo Vetorial
+                </li>
+                <li>
+                  <i className="fa-li fa fa-book-open"></i>
+                  DPAA-2.339 - Estatística e Probabilidade
+                </li>
+                <li>
+                  <i className="fa-li fa fa-book-open"></i>
+                  DPAA-2.124 - Estatística com Informática
+                </li>
+                <li>
+                  <i className="fa-li fa fa-book-open"></i>
+                  DPAA-2.018 - Matemática I
+                </li>
+                <li>
+                  <i className="fa-li fa fa-book-open"></i>
+                  10321.4 - Geometria Analítica
+                </li>
+              </ul>              
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">Agosto 2013 - Presente</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Professor Substituto</h3>
+              <div className="subheading mb-3">Universidade Federal de Goiás</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+                Ministrei disciplinas para os cursos de Matemática, Física, Química, Agronomia e Zootecnia.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">Fevereiro 2010 - Janeiro 2012</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Curso de LaTeX</h3>
+              <div className="subheading mb-3">Instituto Federal de Educação, Ciência e Teconoligia de Goiás</div>
               <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
+              Prática Profissional: Treinamento de LaTeX oferecido aos alunos da Licenciatura em Matemática do IFG.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">2014</span>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Projeto Lagoa do Sino</h3>
+              <div className="subheading mb-3">Universidade Federal de São Carlos</div>
               <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
+                Projeto de Extenção: Construindo pontes institucionais para a implantação participativa do Campus UFSCar da Lagoa do Sino.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">Setembro 2012</span>
             </div>
           </div>
-        </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Previsão Esportiva</h3>
+              <div className="subheading mb-3">Universidade Federal de São Carlos</div>
+              <p>
+                Projeto de Extenção: Manutenção do site de modelagem Esportiva <a href="http://www.previsaoesportiva.com.br" >Previsão Esportiva</a>.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Agosto 2012 - Março 2013</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Centro de Estudos do Risco</h3>
+              <div className="subheading mb-3">Universidade Federal de São Carlos / Universidade de São Paulo</div>
+              <p>
+              <a href="http://www.cer.ufscar.br" >CER</a>: Laboratório de pesquisa do Departamento de Estatística da UFSCar em parceria com o Instituto de Ciências Matemáticas e de Computação da Universidade de São Paulo (ICMC-USP).
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Agosto 2012 - Março 2013</span>
+            </div>
+          </div>
+
+         </div>
       </section>
 
       <hr className="m-0" />
@@ -127,28 +177,59 @@ const IndexPage = () => (
         id="education"
       >
         <div className="w-100">
-          <h2 className="mb-5">Education</h2>
+          <h2 className="mb-5">Educação</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">Universidade Federal de Pernambuco</h3>
+              <div className="subheading mb-1">Doutorado em Estatística</div>
+              <div>Tese: Inference, information theory and segmentation based on an extensed Cauchy-Rayleigh Distribution - Aplications to heavy-tailed data</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">Fevereiro 2015 - Fevereiro 2019</span>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 className="mb-0">Universidade de Brasília</h3>
+              <div className="subheading mb-1">Mestrado em Estatística</div>
+              <div>Dissertação: <a href="http://repositorio.unb.br/handle/10482/17804">Medidas de memória longa em séries temporais - Comparação de métodos de estimação do coeficiente de Hurst</a></div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">Fevereiro 2013 - Dezembro 2014</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Universidade Federal de São Carlos</h3>
+              <div className="subheading mb-1">Graduação em Estatística - Interrompida</div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Fevereiro 2012 - Junho 2014</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Universidade Federal de Goiás</h3>
+              <div className="subheading mb-1">Especialização em Matemática Aplicada</div>
+              <div>Artigo: <a href="http://matematicajatai.com/rematFiles/3-2013/haskell.pdf">Haskell, uma linguagem de programação ideal para matemáticos</a></div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Fevereiro 2010 - Outubro 2011</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Universidade Federal de Goiás</h3>
+              <div className="subheading mb-1">Licenciatura Plena em Matemática</div>
+              <div>Monografia: Uma experiência com o ensino de perímetros e áreas pela Resolução de Problemas</div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Fevereiro 2004 - Dezembro 2007</span>
             </div>
           </div>
         </div>
@@ -161,70 +242,30 @@ const IndexPage = () => (
         id="skills"
       >
         <div className="w-100">
-          <h2 className="mb-5">Skills</h2>
+          <h2 className="mb-5">Habilidades</h2>
 
           <div className="subheading mb-3">
-            Programming Languages &amp; Tools
+            Linguagens de Programação &amp; Ferramentas
           </div>
-          <ul className="list-inline dev-icons">
-            <li className="list-inline-item">
-              <i className="fab fa-html5"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-css3-alt"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-js-square"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-angular"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-react"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-node-js"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-sass"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-less"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-wordpress"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-npm"></i>
-            </li>
-          </ul>
 
-          <div className="subheading mb-3">Workflow</div>
           <ul className="fa-ul mb-0">
             <li>
-              <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
+              <i className="fa-li fa fa-star"></i> R  &amp; RStudio
             </li>
             <li>
-              <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
+              <i className="fa-li fa fa-star"></i> HTML  &amp; CSS
             </li>
             <li>
-              <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
+              <i className="fa-li fa fa-star"></i> shell script  &amp; linux
             </li>
             <li>
-              <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
+              <i className="fa-li fa fa-star"></i> LaTeX
+            </li>
+            <li>
+              <i className="fa-li fa fa-star"></i> vim
             </li>
           </ul>
-        </div>
+        </div>        
       </section>
 
       <hr className="m-0" />
@@ -234,19 +275,29 @@ const IndexPage = () => (
         id="interests"
       >
         <div className="w-100">
-          <h2 className="mb-5">Interests</h2>
-          <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
-          </p>
-          <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
-          </p>
+          <h2 className="mb-3">Interesses</h2>
+          <ul className="fa-ul mb-0">
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Inferência estatística
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Probabilidade
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Análise multivariada
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Machine learning
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Estatística aplicada em geral
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -254,10 +305,33 @@ const IndexPage = () => (
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="awards"
+        id="talks"
       >
         <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
+          <h2 className="mb-5">Palestras, Apresentações e Minicursos</h2>
+          <ul className="fa-ul mb-0">
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Minicurso - R - Maio 2019
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Palestra - O uso de funções especiais em probabilidade - Abril 2019
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Minicurso - Praticando LaTeX - Novembro 2014
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      {/* <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="learners"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Orientandos</h2>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
@@ -292,7 +366,31 @@ const IndexPage = () => (
             </li>
           </ul>
         </div>
+      </section> */}
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="awards"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Certificações &amp; Prêmios</h2>
+          <ul className="fa-ul mb-0">
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              2013 - Bolsa de Mestrado Capes
+            </li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              2012 - Bolsa Jovens Talentos para Ciência
+            </li>
+            <li>
+            <i className="fa-li fa fa-trophy text-warning"></i>
+              2003 - Menção Honrosa na Olimpíada Brasileira de Física
+            </li>
+          </ul>
+        </div>
       </section>
+
     </div>
   </Layout>
 );

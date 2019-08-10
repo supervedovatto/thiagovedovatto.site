@@ -27,8 +27,8 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-0">
-            Professor no Instituto Federal de Educação, Ciência e Tecnologia de Goiás (campus Goiânia) desde Agosto de 2013.
-            Com passagens e projetos desenvolvidos pela UFG, UFSCar, UnB, UFPE, USP e UFCE.
+            Professor no <a href="https://www.ifg.edu.br/">Instituto Federal de Educação, Ciência e Tecnologia de Goiás</a> (campus Goiânia) desde Agosto de 2013.
+            Com passagens e projetos desenvolvidos em várias universidades como <a href="https://www.ufg.br/">UFG</a>, <a href="https://www2.ufscar.br/">UFSCar</a>, <a href="https://www.unb.br/">UnB</a>, <a href="https://www.ufpe.br/">UFPE</a>, <a href="https://www5.usp.br/">USP</a> e <a href="http://www.ufc.br/">UFC</a>.
           </p>
           <p className="lead mb-5">
             Se precisar de ajuda em suas análises estatísticas, pode contar comigo, ficarei feliz em ajudar.

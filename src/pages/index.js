@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
 
@@ -28,13 +28,7 @@ const IndexPage = () => (
           </div>
           <p className="lead mb-0">
             Professor no <a href="https://www.ifg.edu.br/">Instituto Federal de Educação, Ciência e Tecnologia de Goiás</a> (campus Goiânia) desde Agosto de 2013.
-            Com passagens e projetos desenvolvidos em várias universidades como 
-            <a href="https://www.ufg.br/">UFG</a>, 
-            <a href="https://www2.ufscar.br/">UFSCar</a>, 
-            <a href="https://www.unb.br/">UnB</a>, 
-            <a href="https://www.ufpe.br/">UFPE</a>, 
-            <a href="https://www5.usp.br/">USP</a> e 
-            <a href="http://www.ufc.br/">UFC</a>.
+            Com passagens e projetos desenvolvidos em várias universidades como <a href="https://www.ufg.br/">UFG</a>, <a href="https://www2.ufscar.br/">UFSCar</a>, <a href="https://www.unb.br/">UnB</a>, <a href="https://www.ufpe.br/">UFPE</a>, <a href="https://www5.usp.br/">USP</a> e <a href="http://www.ufc.br/">UFC</a>.
           </p>
           <p className="lead mb-5">
             Se precisar de ajuda em suas análises estatísticas, pode contar comigo, ficarei feliz em ajudar.
@@ -251,7 +245,7 @@ const IndexPage = () => (
           <h2 className="mb-5">Habilidades</h2>
 
           <div className="subheading mb-3">
-            Linguagens de Programação &amp; Ferramentas
+            Linguagens de Programação, Edição &amp; Ferramentas
           </div>
 
           <ul className="fa-ul mb-0">
@@ -259,16 +253,34 @@ const IndexPage = () => (
               <i className="fa-li fa fa-star"></i> R  &amp; RStudio
             </li>
             <li>
+              <i className="fa-li fa fa-star"></i> GNU Octave
+            </li>
+            <li>
+              <i className="fa-li fa fa-star"></i> Python
+            </li>
+            <li>
+              <i className="fa-li fa fa-star"></i> Haskell
+            </li>
+            <li>
+              <i className="fa-li fa fa-star"></i> Shell script  &amp; GNU Linux
+            </li>
+            <li>
+              <i className="fa-li fa fa-star"></i> LaTeX, TikZ &amp; PGF
+            </li>
+            <li>
+              <i className="fa-li fa fa-star"></i> vim &amp; Visual Studio Code
+            </li>
+            <li>
+              <i className="fa-li fa fa-star"></i> Maple, Mathemática &amp; Máxima
+            </li>
+            <li>
               <i className="fa-li fa fa-star"></i> HTML  &amp; CSS
             </li>
             <li>
-              <i className="fa-li fa fa-star"></i> shell script  &amp; linux
+              <i className="fa-li fa fa-star"></i> Gatsby &amp; Joomla
             </li>
             <li>
-              <i className="fa-li fa fa-star"></i> LaTeX
-            </li>
-            <li>
-              <i className="fa-li fa fa-star"></i> vim
+              <i className="fa-li fa fa-star"></i> Git &amp; GitHub
             </li>
           </ul>
         </div>        

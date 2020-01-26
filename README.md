@@ -27,8 +27,9 @@ gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-resum
 Then you can run it by:
 
 ```sh
-cd gatsby-example-site
+cd ~/Documents/MySite
 npm install
+bash mysite_gatsby_framework.sh
 gatsby develop
 ```
 

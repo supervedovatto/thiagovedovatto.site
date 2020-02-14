@@ -29,7 +29,6 @@ Then you can run it by:
 ```sh
 cd ~/Documents/MySite
 npm install
-bash mysite_gatsby_framework.sh
 gatsby develop
 ```
 
